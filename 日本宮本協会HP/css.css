@@ -1,0 +1,41 @@
+
+
+
+header{
+   background-color:rgba(0, 255, 170, 0.856);
+   width:700px; 
+   height: 60px;
+
+   padding:0 100px;
+   position: fixed;
+}
+header h3{
+   font-size: 20px;
+
+   position:absolute;
+   top :-5px;
+   left:19px;
+   
+}
+header p{
+   position:absolute;
+   top :0px;
+   left :300px;
+}
+.main{
+   padding-top: 60px;
+   height: 10000px;
+   width:900px;
+   background-color: seashell;
+
+}
+.mess{
+   padding:0 0 20px 20px;
+}
+.sinja1{
+   width: 135px;
+   height: 140px;
+}
+
+
+
