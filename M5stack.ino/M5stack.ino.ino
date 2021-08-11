@@ -9,7 +9,7 @@
 //スプレっとシート
 const char *host ="https://script.google.com/macros/s/AKfycbxSEPyXGV3sGZuI3yCbWrs40eXv6ZiUjmP9dTNfYPcYcjWgRxbep2LU/exec";//一文字ずつlistへ cherは1文字
 //json設定
-StaticJsonDocument<255> json_request;//jsonさんが予約 data領域を予約 json_request名前
+StaticJsonDocument<255> json_request;//jsonさんが予約 data領域を予約 json_request名前 辞書
 char buffer[255];//list指定　２５５個分
 
 //カウント初期化
@@ -45,7 +45,7 @@ void sendCount(){
   HTTPClient http;//おぶじぇくと（HTTPClient型)
   http.begin(host);//通信開始命令
   http.addHeader("Content-type", "application/json") ;//jsonだよ
-  int status_code = http.POST( (uint8_t*) buffer , strlen(buffer));//序盤は削ぎ落とし space消し　変換　何文字分送るか　
+  int status_code = http.POST( (uint8_t*) buffer , strlen(buffer));//序盤は削ぎ落とし(space消し)　変換　何文字分送るか　
   Serial.println(status_code);
   if (status_code > 0){
       if(status_code == HTTP_CODE_FOUND){
