@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="商品クリックcss.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <h2> ItoサンDaル株式会社；あまぞん</h2>
+            
+            <div class ="kannyu">
+                <p><a href="">雇用情報</a></p>
+            </div>
+        </header>
+
+        <div class="space"></div>
+        <div class="buy">
+
+            <div class="money">
+                <h4>¥3</h4>
+            </div>
+            <div class="str">
+                <p>ポイント無し</p>
+            </div>
+            <div class="str">
+                <p><span class="deco-str">配送</span>：ミライベース</p>
+            </div>
+
+            <form action="http://localhost:3000/" method="POST" class="post">
+                数量:<input type="number" class="many" min=1 value=1 name="many"><br>
+                色　:<select name ="color" class="color">
+                    <option >赤</option>
+                    <option>黄色</option>
+                    <option>青</option>
+                    <option>緑</option>
+                    <option>黒</option>
+                </select><br>
+                <input type="hidden" name="type" value="水風船鉄砲">
+                <input type="submit" value="購入" class="btn">
+            </form>
+
+        </div>
+
+        <div class="space2"></div>
+        <div class="top">
+            <img src="/Users/user/Documents/itoサンDaる株式会社/home/PXL_20210723_082509165.PORTRAIT.jpg" alt="" width="500px" height="450px">
+            <div class="big-name">
+                <h3>Water風船Gun</h3>
+            </div>
+            <div class="status">
+                <h4>価格:<span>¥3円</span></h4>
+                <p></p>
+                <p>材質　　：ゴム、プラスティック</p>
+                <p>色　　　：[red]-[yellow]-[blue]-[green]</p>
+                <p>年齢制限：R-10</p>
+            </div>
+            <div class="introduction">
+                <h7>商品説明<</h7>
+                
+                <p>子供心をくすぐるおもちゃです</p>
+                <p>早い安いうまい</p>
+                <p></p>
+            </div>
+        </div> 
+
+    </body>
+</html>

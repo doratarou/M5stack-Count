@@ -1,0 +1,140 @@
+body{margin: 0;
+    font-family: fantasy,serif;
+    background-color: white;
+    color: rgb(0, 0, 0,0.8);
+}
+header{
+    width :1020px;
+    height: 60;
+    background-color: rgba(34, 49, 52, 0.9);
+    color:white;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+header h2{
+    
+    text-align: left;
+    position:absolute;
+    top:-5;
+}
+.kannyu{
+    margin:0;
+    width: 150px;
+    height: 55px;
+
+ 
+    color:black;
+    float: right;
+    padding: 5px 0 0 0;
+
+
+}
+.kannyu a{
+    color:white;
+}
+
+
+
+
+.space{
+
+    width:70px;
+    height:100%;
+    float:left;
+    background-color: white;
+}
+.buy{
+    width:150px;
+    height:100%;
+    float:right;
+    margin-top: -3px;
+    background-color: #FAFAFA;
+    border: 0.001px solid rgb(0, 0, 0,0.8);
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top:10px;
+    left:-5px;
+    font-size: 20px;
+
+ 
+}
+.money{
+    color:rgba(207, 7, 7, 0.8);
+    font-size:30px;
+    margin:0;
+}
+
+.space2{
+    position: relative;
+    right: -155px;
+    z-index: 100;
+    width:8px;
+    height:100%;
+    float:right;
+    background-color:white;
+}
+.str{
+    position: relative;
+    top:-30px;
+    line-height: 23px;
+}
+.top img{
+    float:left;
+    position: sticky;
+    top: 0px;
+}
+.big-name h3{
+
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.big-name{
+
+    border-bottom:1px solid rgb(32, 32, 32,0.5) ;
+
+}
+
+.status{
+
+    line-height: 5px;
+    font-size: 20px;
+    border-bottom:  0.001px solid rgba(175, 175, 175, 0.5);
+}
+.status p{
+    line-height:1.4em;
+    padding : 0px 0px 0px 0px;
+}
+.status span{
+    color:#811f1f;
+}
+.deco-str{
+    color: royalblue;
+}
+
+.many{
+    width: 80px;
+    height: 23px;
+    border: 0.5px solid rgba(0, 0, 0,0.9);
+    border-radius: 20px;
+}
+.color{
+    width: 80px;
+    height: 23px;
+    border: 0.5px solid rgba(0, 0, 0,0.9);
+    border-radius: 20px;
+}
+.btn{
+    margin: 10px 0 0 0;
+    width: 150px;
+    height: 30px;
+    border: 0.5px solid rgba(0, 0, 0,0.9);
+    border-radius: 20px;
+    color: cornflowerblue;
+    background-color: rgb(255, 218, 8,0.8);
+}
+.btn :hover{
+    opacity: 0.1;
+}
